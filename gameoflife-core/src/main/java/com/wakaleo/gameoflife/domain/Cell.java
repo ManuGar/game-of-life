@@ -30,8 +30,4 @@ public enum Cell {
         return symbol;
     }
 
-    public bool siempreTrue(){
-    	return true;
-    }
-
 }
