@@ -19,7 +19,7 @@ public enum Cell {
         Cell cellRepresentedBySymbol = null;
         for (Cell cell : Cell.values()) {
             if (cell.symbol.equals(symbol)) {
-                cellRepresentedBySymbol = cell;
+                cellRepresentedBySymbol = null;//cell;
                 break;
             }
         }
