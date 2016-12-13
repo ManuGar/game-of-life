@@ -29,4 +29,8 @@ public enum Cell {
     public String getSymbol() {
         return symbol;
     }
+	
+    public String noSirveParaNada(){
+		return "No sirvo pa na";
+    }
 }
